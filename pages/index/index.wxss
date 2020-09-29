@@ -1,11 +1,6 @@
 /**index.wxss**/
-.container{
+.container1111{
   background-color: white;
-  background-image: url(https://www.w3school.com.cn//i/eg_bg_03.gif);
-  background-repeat:no-repeat;
-  background-position: 10px 50px;
-  background-attachment: fixed;
-  margin: 20rpx;
 }
 .userinfo {
   display: flex;
