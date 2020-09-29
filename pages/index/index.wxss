@@ -1,0 +1,40 @@
+/**index.wxss**/
+.container{
+  background-color: white;
+  background-image: url(https://www.w3school.com.cn//i/eg_bg_03.gif);
+  background-repeat:no-repeat;
+  background-position: 10px 50px;
+  background-attachment: fixed;
+  margin: 20rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.contentText{
+  text-indent: 2rem;
+  font-size: 30rpx;
+  text-align: start;
+  word-wrap:break-word;
+  word-break: break-all;
+  letter-spacing:0px;
+  direction:ltr;
+  
+}
