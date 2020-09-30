@@ -1,18 +1,26 @@
 {
   "pages":[
+    
     "pages/index/index",
+    "pages/home/index",
+    "pages/classification/index",
+    "pages/found/index",
+    "pages/mine/index",
+    "pages/shopping/index",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#39b54a",
+    "navigationBarTitleText": "Color UI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
   },
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
     "van-cell": "@vant/weapp/cell/index",
     "van-cell-group": "@vant/weapp/cell-group/index"
   },
+  
+
   "sitemapLocation": "sitemap.json"
 }

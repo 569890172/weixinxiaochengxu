@@ -1,14 +1,30 @@
 <!--index.wxml-->
-<view class="container1111">
-
-<view>
-<van-cell-group>
-  <van-cell title="单元格" value="内容" />
-  <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
-</van-cell-group>
+<home wx:if="{{PageCur=='home'}}"></home>
+<classification wx:if="{{PageCur=='classification'}}"></classification>
+<shopping wx:if="{{PageCur=='shopping'}}"></shopping>
+<found wx:if="{{PageCur=='found'}}"></found>
+<mine wx:if="{{PageCur=='mine'}}"></mine>
+<view class="cu-bar tabbar bg-white shadow foot">
+	<view class="action text-green" bindtap="NavChange" data-cur="home" >
+		<view class="cuIcon-homefill" ></view> 首页
+	</view>
+	<view class="action text-gray" bindtap="NavChange" data-cur="classification" >
+		<view class="cuIcon-similar"></view> 分类
+	</view>
+	<view class="action text-gray add-action" bindtap="NavChange" data-cur="found">
+		<button class="cu-btn cuIcon-add bg-green shadow"></button>
+		发布
+	</view>
+	<view class="action text-gray" bindtap="NavChange" data-cur="shopping">
+		<view class="cuIcon-cart">
+			<view class="cu-tag badge">99</view>
+		</view>
+		购物车
+	</view>
+	<view class="action text-gray" bindtap="NavChange" data-cur="mine">
+		<view class="cuIcon-my">
+			<view class="cu-tag badge"></view>
+		</view>
+		我的
+	</view>
 </view>
-
-
-</view>
-
-
