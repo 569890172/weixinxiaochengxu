@@ -27,12 +27,12 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": false,
+		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.12.2",
-	"appid": "wxcbfec89e4329b828",
+	"appid": "wx7bb339f72df0535e",
 	"projectname": "weixincode",
 	"debugOptions": {
 		"hidedInDevtools": []

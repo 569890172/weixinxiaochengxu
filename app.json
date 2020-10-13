@@ -3,6 +3,7 @@
     
     "pages/index/index",
     "pages/home/index",
+    "pages/home/text/index",
     "pages/classification/index",
     "pages/found/index",
     "pages/mine/index",
@@ -18,7 +19,8 @@
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
     "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index"
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "cu-custom":"/colorui/components/cu-custom"
   },
   
 

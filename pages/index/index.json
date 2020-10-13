@@ -1,9 +1,9 @@
 {
   "usingComponents": {
-    "home":"../home/index",
-    "found":"../found/index",
-    "classification":"../classification/index",
-    "mine":"../mine/index",
-    "shopping":"../shopping/index"
+    "home":"/pages/home/index",
+    "found":"/pages/found/index",
+    "classification":"/pages/classification/index",
+    "mine":"/pages/mine/index",
+    "shopping":"/pages/shopping/index"
   }
 }
