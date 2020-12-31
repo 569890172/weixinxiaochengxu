@@ -1,2 +1,9 @@
 <!--pages/home/text/index.wxml-->
-<text>pages/home/text/index.wxml</text>
+<scroll-view scroll-y class="scrollPage">
+  <cu-custom bgColor="bg-gradual-blue" isBack="true" >
+    <view slot="backText">  返回</view><!-- 左侧文本内容 -->
+    <view slot="content">文本</view> <!-- 中间文本内容 -->
+    <view slot="right">右侧</view><!-- 区域一般很小 -->
+  </cu-custom>
+
+</scroll-view>

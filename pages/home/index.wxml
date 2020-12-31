@@ -6,7 +6,7 @@
   </cu-custom>
 
   <van-cell-group title="基础内容1">
-  <van-cell title="文本" value="文本内容显示" is-link />
+  <van-cell title="文本" value="文本内容显示" is-link  url="/pages/home/text/index" />
   </van-cell-group>
 
 
